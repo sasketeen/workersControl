@@ -1,6 +1,8 @@
 # Пробное задание на Vue3 + Vuetify
 ![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)![Vuetify](https://img.shields.io/badge/Vuetify-1867C0?style=for-the-badge&logo=vuetify&logoColor=AEDDFF)
 
+URL: https://sasketeen.github.io/workersControl/
+
 Это задание является моим первым опытом работы в библиотекой компонентов Vuetify. А данном проекте реализована простая панель просмотра работников. На панели можно:
 * фильтровать работников по специальному бейджу
 * фильтровать работников по ряду параметров (полу, гражданству, должности, типу договора)
