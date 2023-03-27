@@ -25,7 +25,7 @@
     <v-row no-gutters class="worker-info mt-4 flex-wrap" style="">
       <div>
         <img
-          :src="worker.county.icon"
+          :src=worker.county.icon
           :alt="worker.county.slug"
           class="mr-2 country-flag"
         />

@@ -1,5 +1,7 @@
 import {ref} from 'vue';
-
+import ruFlag from '@/assets/images/RU.svg';
+import tjFlag from '@/assets/images/TJ.png';
+import uzFlag from '@/assets/images/UZ.png';
 export const tags = [
   { id: 1, title: "Проблемные", slug: "pr", color: "#E2BD06" },
   { id: 2, title: "Критические", slug: "cr", color: "#E52E2E" },
@@ -10,19 +12,19 @@ export const tags = [
 export const county = [
   {
     id: 1,
-    icon: "/src/assets/images/RU.svg",
+    icon: ruFlag,
     title: "Россия",
     slug: "RU",
   },
   {
     id: 2,
-    icon: "/src/assets/images/TJ.png",
+    icon: tjFlag,
     title: "Таджикистан",
     slug: "TJ",
   },
   {
     id: 3,
-    icon: "/src/assets/images/UZ.png",
+    icon: uzFlag,
     title: "Узбекистан",
     slug: "UZ",
   },
